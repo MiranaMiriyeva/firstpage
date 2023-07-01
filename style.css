@@ -1,1 +1,36 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.acontainer {
+  margin: 10px 0 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aline {
+  background-color: aqua;
+  margin-left: 800px;
+  width: 10px;
+  height: 100px;
+}
+
+.atext {
+  color: white;
+  padding-bottom: 350px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+.atexth1 {
+  padding-left: 800px;
+  font-size: 70px;
+}
+
+.atextpre {
+  padding-left: 800px;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
