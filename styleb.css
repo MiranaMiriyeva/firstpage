@@ -1,0 +1,25 @@
+.bcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.bleft {
+  padding: 100px 50px 100px 150px;
+  line-height: 1, 6;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btext {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.bh2 {
+  font-weight: 700;
+}
+
+.bh5 {
+  font-weight: 600;
+}/*# sourceMappingURL=styleb.css.map */
