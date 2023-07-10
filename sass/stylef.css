@@ -1,0 +1,49 @@
+.fmain {
+  background-color: #b9dfdf;
+  width: 1119px;
+  height: 800px;
+  padding: 100px 200px 150px 200px;
+}
+
+.fcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fflex {
+  background-color: #d7eded;
+  width: 800px;
+  height: 823px;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.flink {
+  background-color: #b9dfdf;
+  padding: 20px;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+}
+.flink a:link {
+  color: #111111;
+}
+
+.fh2 {
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.1;
+  font-weight: 700;
+  padding: 0 30px 30px 30px;
+}
+
+.ftext {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  padding: 29px 30px 30px 30px;
+}/*# sourceMappingURL=stylef.css.map */

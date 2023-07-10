@@ -40,11 +40,18 @@
 }
 
 .dmore {
-  display: block;
-  text-align: center;
-  text-decoration: none;
+  display: inline;
   background-color: #b9dfdf;
-  margin: 20px 0 20px 0;
+  padding: 20px;
+  text-decoration: none;
+  margin-left: 700px;
+  margin-top: 20px;
+  text-align: center;
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+}
+.dmore a:link {
+  color: #111111;
 }
 
 .dfooter {
@@ -55,7 +62,7 @@
   justify-content: space-around;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  color: red;
+  color: white;
 }
 
 .dtitle {

@@ -40,11 +40,18 @@
 }
 
 .dmore {
-  display: block;
-    text-align: center;
-    text-decoration: none;
-    background-color:#b9dfdf ;
-    margin: 20px 0 20px 0;
+display: inline;
+  background-color: #b9dfdf;
+  padding: 20px;
+  text-decoration: none;
+  margin-left: 700px;
+  margin-top: 20px;
+  text-align: center;
+  a:link {
+      color: #111111;
+    }
+    color: #111111;
+    font-family: 'Open Sans',sans-serif;
 }
 
 

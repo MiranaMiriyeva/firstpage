@@ -1,0 +1,95 @@
+.lcontainer{display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px 100px 100px 200px;
+    .lq{
+
+    position: absolute;
+   bottom: 500px;
+    left: 600px;
+    width: 200px;
+    height: 200px;
+}
+}
+.lflex{
+    width: 600px;
+    height: 650px ;
+    flex-direction: row;
+     padding-top: 30px;
+}
+.llink{
+    background-color: #b9dfdf;
+    padding: 15px 35px 15px 35px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    a:link {
+        color: #111111;
+      }
+      color: #111111;
+      font-family: 'Open Sans',sans-serif;
+
+}
+.lh5{
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+     line-height: 1.2;
+   font-weight: 600;
+   padding:  150px 30px 15px 50px;
+}
+.lh2{
+
+    font-size: 48px;
+    font-family: 'Open Sans',sans-serif;
+     line-height: 1.1;
+   font-weight: 700;
+   padding:  0 30px 10px 50px;
+}
+
+.ltext{
+   font-size: 20px; 
+   font-family: 'Open Sans',sans-serif;
+   font-weight: 300;
+   line-height: 1.6;
+   padding: 10px 30px 30px 50px;
+  
+}
+
+.ldiv{
+    width: 100%;
+    height: 250px;
+    background-color: #23354d;
+   
+}
+.licon{
+    display: flex;
+    margin-left: 700px;
+    gap: 15px;
+    width: 18px;
+    height: 18px;
+    margin-top: 20px;
+}
+.lsentence{
+font-size: 16px;
+font-weight: 300;
+font-family: 'Open Sans',sans-serif;
+text-align: center;
+color: white;
+line-height: 1.6;
+padding-top: 70px;
+}
+
+.lfooter{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3px;
+    padding-top: 40px;
+    background-color: #333333;
+     font-size: 13px;
+    .lp{color: white;}
+    .la{color: #b9dfdf;}
+    font-family: 'Open Sans',sans-serif;
+}
