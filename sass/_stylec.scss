@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: o;
+}
+
+.ccontainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+.clines {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+}
+
+.cblack {
+  color: white;
+  background-color: #111111;
+}
+
+.cmedia{
+  width: 190px;
+  height: 171px;
+}
+.cimgs {
+  padding: 28px 0 150px 189px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.cblue {
+  padding: 230px 189px 150px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #b9dfdf;
+}
+
+.ctext {
+  font-family: "Open Sans", sans-serif;
+  padding: 100px 0 0 200px;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+@media (max-width: 800px) {
+
+  * {
+    margin: 0;
+    padding: o;
+  }
+  
+  .ccontainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  .clines {
+   display: none;
+  }
+  
+  }
+  
+  .cblack {
+    color: white;
+    background-color: #111111;
+    width: 100%;
+  }
+  .cmedia{   
+    display: grid;
+    gap: 0%;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px; 
+    
+   }
+  .cimgs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+  }
+  
+  .cblue {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   width: 100%;
+    background-color: #b9dfdf;
+  }
+  
+  .ctext {
+    font-family: "Open Sans", sans-serif;
+    padding: 50px 0 0 100px;
+    font-size: 14px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+
+}
+@media (max-width: 400px) {
+
+  * {
+    margin: 0;
+    padding: o;
+  }
+  
+  .ccontainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  .clines {
+   display: none;
+  }
+  
+  }
+  
+  .cblack {
+    color: white;
+    background-color: #111111;
+    width: 100%;
+  }
+  .cmedia{   
+    display: grid;
+    gap: 0%;
+    grid-template-columns: 300px ;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px; 
+    
+   }
+  .cimgs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+  }
+  
+  .cblue {
+    padding-top: 10px;
+    padding-bottom: 10px;
+   width: 100%;
+    background-color: #b9dfdf;
+  }
+  
+  .ctext {
+    font-family: "Open Sans", sans-serif;
+    padding: 30px 0 0 60px;
+    font-size: 10px;
+  }
+  
+  h3 {
+    font-size: 15px;
+  }
+}

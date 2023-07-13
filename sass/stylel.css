@@ -3,11 +3,12 @@
   flex-direction: row;
   align-items: center;
   margin: 100px 100px 100px 200px;
+  position: relative;
 }
 .lcontainer .lq {
   position: absolute;
-  bottom: 500px;
-  left: 600px;
+  bottom: 470px;
+  left: 900px;
   width: 200px;
   height: 200px;
 }

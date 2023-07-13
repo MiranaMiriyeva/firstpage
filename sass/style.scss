@@ -1,4 +1,9 @@
-
+@use'sass/styleb';
+@use'sass/stylec';
+@use'sass/styled';
+@use'sass/stylee';
+@use'sass/stylef';
+@use'sass/stylel';
 * {
    margin: 0;
    padding: 0;
@@ -19,7 +24,7 @@
  
  .atext {
    color: white;
-   padding-bottom: 350px;
+   padding-bottom: 330px;
    padding-top: 100px;
    display: flex;
    flex-direction: column;
